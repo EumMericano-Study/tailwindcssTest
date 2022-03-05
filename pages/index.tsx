@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 
 const Home: NextPage = () => {
   return (
-    <div className="bg-slate-400 py-10 px-5 grid gap-10">
+    <div className="bg-slate-400 py-10 px-10 grid gap-10">
       <div className="bg-white p-6 rounded-3xl shadow-xl">
         <span className="font-semibold text-3xl">Select Item</span>
         <div className="flex justify-between my-1">
@@ -21,7 +21,28 @@ const Home: NextPage = () => {
           Checkout
         </div>
       </div>
-      <div className="bg-white p-10 rounded-3xl shadow-xl"></div>
+      <div className="bg-white shadow-xl overflow-hidden rounded-3xl">
+        <div className="bg-blue-500 p-6 pb-14">
+          <span className="text-white text-2xl">Profile</span>
+        </div>
+        <div className="relative -top-5 bg-white p-6 rounded-3xl">
+          <div className="relative -top-16 flex justify-between items-end">
+            <div className="flex flex-col items-center">
+              <span className="text-sm text-gray-500">Order</span>
+              <span className="font-medium">$340</span>
+            </div>
+            <div className="w-24 h-24 bg-red-400 rounded-full" />
+            <div className="flex flex-col items-center">
+              <span className="text-sm text-gray-500">Spent</span>
+              <span className="font-medium">$2,310</span>
+            </div>
+          </div>
+          <div className="flex flex-col items-center -mt-12 -mb-5">
+            <span className="text-lg font-medium">Tony Molloy</span>
+            <span className="text-sm text-gray-400">New York, USA</span>
+          </div>
+        </div>
+      </div>
       <div className="bg-white p-10 rounded-3xl shadow-xl"></div>
       <div className="bg-white p-10 rounded-3xl shadow-xl"></div>
     </div>
