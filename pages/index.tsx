@@ -56,10 +56,10 @@ const Home: NextPage = () => {
           <span className="text-xl font-medium mt-3">Swoon Lounge</span>
           <span className="text-sm text-gray-500">Chair</span>
           <div className="flex justify-between items-center mt-3 mb-5">
-            <div className="space-x-2">
-              <button className="w-5 h-5 bg-yellow-500 rounded-full" />
-              <button className="w-5 h-5 bg-teal-500 rounded-full" />
-              <button className="w-5 h-5 bg-indigo-500 rounded-full" />
+            <div className="space-x-3">
+              <button className="w-5 h-5 bg-yellow-500 transition focus:ring-2 ring-offset-2 ring-yellow-500 rounded-full" />
+              <button className="w-5 h-5 bg-teal-500 transition focus:ring-2 ring-offset-2 ring-teal-500 rounded-full" />
+              <button className="w-5 h-5 bg-indigo-500 transition focus:ring-2 ring-offset-2 ring-indigo-500 rounded-full" />
             </div>
             <div className="flex items-center space-x-5">
               <button className="w-8 aspect-square flex justify-center items-center bg-blue-200 text-xl text-gray-500 rounded-lg p-1.5">
