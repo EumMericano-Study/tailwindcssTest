@@ -3,7 +3,7 @@ import type { NextPage } from "next";
 const Home: NextPage = () => {
   return (
     <div className="min-h-screen bg-slate-400 py-10 px-10 grid gap-10">
-      <div className="bg-white p-6 rounded-3xl shadow-xl">
+      <div className="bg-white sm:bg-red-300 sm:hover:bg-pink-300 md:bg-indigo-300 lg:bg-slate-300 xl:bg-amber-300 2xl:bg-sky-300 p-6 rounded-3xl shadow-xl">
         <span className="font-semibold text-3xl">Select Item</span>
         {["a", "b", "c", "d", "e"].map((_, index) => (
           <div
