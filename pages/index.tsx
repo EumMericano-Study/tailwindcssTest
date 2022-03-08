@@ -37,9 +37,11 @@ const Home: NextPage = () => {
               <span className="text-sm text-gray-500">Order</span>
               <span className="font-medium">$340</span>
             </div>
-            <div className="w-24 h-24 bg-slate-300 rounded-full group-hover:bg-slate-400 transition-colors" />
+            <div className="w-24 h-24 bg-slate-300 rounded-full group-hover:bg-slate-400 bg-[url('https://nomad-sexy-coffee.s3.ap-northeast-2.amazonaws.com/shops/0gj4nzctz-kzm06vm0-%E1%84%89%E1%85%B3%E1%86%AF%E1%84%80%E1%85%B52.jpeg')] bg-cover transition-colors" />
             <div className="flex flex-col items-center">
-              <span className="text-sm text-gray-500">Spent</span>
+              <span className="text-[18px] text-[#000] text-opacity-50">
+                Spent
+              </span>
               <span className="font-medium">$2,310</span>
             </div>
           </div>
